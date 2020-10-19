@@ -13,9 +13,10 @@ fi
 echo "Running setup!"
 set -e
 touch "$ROOT/.setup-date"
-git commit --allow-empty -m "Ran setup."
+git commit --allow-empty -m "Ran setup." | true
 cp "$ROOT/util/pre-commit" "$ROOT/.git/hooks/"
 cp "$ROOT/util/pre-commit-warning.txt" "$ROOT/.git/hooks/"
-git config commit.template "$ROOT/setup/commit-template"
-git remote add teacher https://github.com/ChadwickCSP20-21/LearningUnity.git
+git config commit.template "$ROOT/util/commit-template"
+# Error here
+git remote add teacher https://github.com/ChadwickCSP20-21/LearningUnity.git | true
 cat util/setup-complete.txt
