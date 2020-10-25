@@ -138,6 +138,10 @@ following code:
 Your CSS file must contain several styling choices but they can be whatever you
 like.
 
+Basic CSS Example: [HERE](https://drive.google.com/file/d/15pbZTCB7B4cJ-MYQMnJcGF8tZMzZZo-0/view?usp=sharing)
+
+Basic Classes Example: [HERE](https://drive.google.com/file/d/19-ZZUSl8TMRFwH6RqlxYl0hqtueF9BaV/view?usp=sharing)
+
 Pro tip: Googling "Portfolio Layouts" can give you a ton of inspiration and code
 examples. However, do not copy / paste an entire layout. Only take the CSS
 components you need for your portfolio.
