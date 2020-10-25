@@ -1,0 +1,29 @@
+
+.with-border {
+    border: 1px solid;
+    border-color: black;
+}
+
+.section-one {
+    max-width: 400px;
+}
+
+.section-one p {
+    font-size:16px;
+    font-weight: bold;
+}
+
+.section-one h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+}
+
+.section-two h1 {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.section-two p {
+    color: green;
+}
